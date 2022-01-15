@@ -2,7 +2,6 @@ func main()
 	do cui@print("契約書だよ。そこに名前を書きな。")
 	var name: []char :: cui@input()
 	do cui@print("フン。\{name}というのかい。贅沢な名だねぇ。")
-	var random: int :: lib@rnd(0, ^name)
-	var newname: char :: name[random]
+	var newname: char :: name[lib@rnd(0, ^name)]
 	do cui@print("今からお前の名前は\{newname}だ。いいかい、\{newname}だよ。分かったら返事をするんだ、\{newname}!!")
 end func
