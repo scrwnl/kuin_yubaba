@@ -1,2 +1,2 @@
 # kuin_yubaba
-Kuinで湯婆婆(遅い)
+Kuinで湯婆婆
